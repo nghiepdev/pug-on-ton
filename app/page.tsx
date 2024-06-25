@@ -17,14 +17,14 @@ export default function Home() {
         <source src='/video-1.mp4' type='video/mp4' />
       </video>
       <div className='absolute inset-0'>
-        <div className='w-[calc(100%-200px)] mx-auto flex flex-col size-full py-10'>
+        <div className='w-[calc(100%-160px)] mx-auto flex flex-col size-full py-10'>
           <header className='shrink-0 flex bg-white/30 rounded-3xl items-center px-10 gap-10 w-full'>
             <a href='/' className='shrink-0'>
               <Image src={logoImg} quality={100} priority alt='' height={91} />
             </a>
             <ul
               className={clsx(
-                'flex ml-auto mr-auto items-center gap-10',
+                'flex ml-auto mr-auto items-center gap-24',
                 '[&_a]:multi-[`inline-block;animate-spin`]',
                 '[&_img]:multi-[object-cover;size-[84px]]'
               )}
@@ -59,7 +59,7 @@ export default function Home() {
 
           <div className='mt-auto w-full flex gap-20 justify-between'>
             <div className=''>
-              <h1 className='text-center text-balance uppercase text-7xl bg-blend-screen bg-[#A3DEFF99] bg-[url(/xuong.png)] rounded-xl py-2'>
+              <h1 className='text-center text-balance uppercase text-7xl bg-blend-screen bg-[#A3DEFF99] bg-[url(/xuong.png)] rounded-xl px-2 py-2'>
                 <p>TELEGRAM TWEETED</p>
                 <p>FRED THE PUG</p>
               </h1>

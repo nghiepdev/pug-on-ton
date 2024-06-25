@@ -9,7 +9,8 @@ const font = Poor_Story({
 
 export const metadata: Metadata = {
   title: 'PUG on TON',
-  description: 'PUG on TON',
+  description:
+    "Telegram’s Dog - FRED THE PUG - Inspired by the mischief $PUG from Telegram's special sticker pack. It's time to join $PUG in unleashing a whole new Dog meta on #TON.",
 };
 
 export default function RootLayout({
