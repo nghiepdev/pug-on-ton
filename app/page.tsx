@@ -1,21 +1,15 @@
 import Image from 'next/image';
+import clsx from 'clsx';
+
 import logoImg from './logo.png';
 import dogImg from './dog.png';
-import clsx from 'clsx';
+
+import Background from './background';
 
 export default function Home() {
   return (
-    <main className='relative'>
-      <video
-        loop
-        muted
-        autoPlay
-        playsInline
-        preload='none'
-        className='w-screen min-h-screen object-cover'
-      >
-        <source src='/video-1.mp4' type='video/mp4' />
-      </video>
+    <main className='relative min-w-[1204px]'>
+      <Background />
       <div className='absolute inset-0'>
         <div className='w-[calc(100%-160px)] mx-auto flex flex-col size-full py-10'>
           <header className='shrink-0 flex bg-white/30 rounded-3xl items-center px-10 gap-10 w-full'>
@@ -72,8 +66,7 @@ export default function Home() {
                 autoPlay
                 playsInline
                 preload='none'
-                className='object-cover'
-                width={577}
+                className='object-cover max-w-[577px]'
               >
                 <source src='/video-2.mp4' type='video/mp4' />
               </video>
