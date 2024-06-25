@@ -40,7 +40,7 @@ export default function Home() {
                 </a>
               </li>
               <li>
-                <a href='https://t.me/fredthepug_ton' target='_tele'>
+                <a href='https://t.me/fredthepugonton' target='_tele'>
                   <img src='/tele.svg' alt='' className='!size-[120px]' />
                 </a>
               </li>
