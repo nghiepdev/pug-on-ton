@@ -35,12 +35,12 @@ export default function Home() {
                 </a>
               </li>
               <li>
-                <a href='/'>
+                <a href='https://x.com/Fredthepug_ton' target='_x'>
                   <img src='/twitter.svg' alt='' />
                 </a>
               </li>
               <li>
-                <a href='/'>
+                <a href='https://t.me/fredthepug_ton' target='_tele'>
                   <img src='/tele.svg' alt='' className='!size-[120px]' />
                 </a>
               </li>
@@ -60,7 +60,8 @@ export default function Home() {
           <div className='mt-auto w-full flex gap-20 justify-between'>
             <div className=''>
               <h1 className='text-center text-balance uppercase text-7xl bg-blend-screen bg-[#A3DEFF99] bg-[url(/xuong.png)] rounded-xl py-2'>
-                TELEGRAM TWEETED FRED THE PUG
+                <p>TELEGRAM TWEETED</p>
+                <p>FRED THE PUG</p>
               </h1>
               <Image src={dogImg} alt='' />
             </div>
